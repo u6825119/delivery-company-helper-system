@@ -17,7 +17,7 @@
 
 ### User guidelines:
 Users will need to give the input in the main method of Main class, input information and format are shown below:
-# listOfOrders:
+### listOfOrders:
 | Description: A list of Orders needs to be provided in this section, an Order refers to an instance of the Order class.
 | Example: Order[] listOfOrders = { new Order(1, 20201020, "Jessica", 1),
                                     new Order(4, 20201123, "Cassandra", 6),
@@ -25,7 +25,7 @@ Users will need to give the input in the main method of Main class, input inform
                                     new Order(2, 20201013, "John", 8) };
 | Assumptions: The date are expected to be in the form as shown in the example above.
 
-## map: 
+### map: 
 | Description: A 2D array providing the connections and their distances between address IDs. map [0][5] = 6 denotes the connection     
   between address ID 0 and 5 is 6 km apart, map [2][3] = 0 denotes there is no connection between address ID 2 and 3, full map with    
   all possible connections between all IDs needs to be provided.
@@ -40,11 +40,11 @@ Users will need to give the input in the main method of Main class, input inform
                 { 8, 11, 0, 0, 0, 0, 1, 0 } };
 | Assumptions: map[x][y]==0 should be satisfied when x == y. map is a square 2D array.
 
-## destinationID: 
+### destinationID: 
 | Description: A desired address ID (int) that will help returning the shortest path to this point from where the delivery company is located.
 | Assumptions: The address ID should be valid from the map above.
 
-## findCustomerByID: 
+### findCustomerByID: 
 | Description: This ID will return its corresponding order information.
 | Assumptions: The order ID should be valid from the input orders above.
 
