@@ -1,13 +1,13 @@
 # delivery-company-helper-system
 
 
-##Background
+## Background
 A delivery company which processes orders in the order of the soonest deadline 
 using a max-heap, then finds customer information using Red-Black Tree, and finally 
 finds the shortest path to the delivery destination using Dijkstra's algorithm.
 This program will use Java as the programming language.
 
-##Functionalities:
+## Functionalities:
 (I/O: Read in the provided input and save the information in data structure.)
 1. Identify the order with soonest delivery deadline among all the orders.
 2. Find the order information including name, address, delivery deadline, and order 
