@@ -6,6 +6,7 @@ A delivery company which processes orders in the order of the soonest deadline
 using a max-heap, then finds customer information using Red-Black Tree, and finally 
 finds the shortest path to the delivery destination using Dijkstra's algorithm.
 This program will use Java as the programming language.
+### Programming Language used: Java 
 
 ## Functionalities:
 (I/O: Read in the provided input and save the information in data structure.)
@@ -14,7 +15,7 @@ This program will use Java as the programming language.
 ID with a given order ID.
 3. Find the closest path to the desired destination (Address ID).
    
-## Programming Language used: Java   
+  
 ## Java classes:
 1.  Order: This class is the most important class defining the structure and behavior of all “Order” instances that will be used
     throughout the program, an order instance contains an order ID, a date of delivery deadline, a name of the customer, and an address represented by an address ID (Integer).
