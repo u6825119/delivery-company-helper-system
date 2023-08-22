@@ -1,0 +1,6 @@
+Order[] listOfOrders =
+{  new Order(1, 20201020, "Jessica", 1),
+   new Order(5, 20201123, "Cassandra", 6),
+   new Order(2, 20201021, "Alex", 2),
+   new Order(4, 20201013, "John", 8),
+   new Order(3, 20191117, "Chloe", 5)};

@@ -1,0 +1,22 @@
+Order[] listOfOrders =
+{  new Order(11, 20201101, "Lisa",    1),
+   new Order(1,  20201120, "Jessica", 1),
+   new Order(7,  20201123, "Cassandra", 6),
+   new Order(3,  20201130, "Alex",    2),
+   new Order(18, 20201205, "Ellen",   1),
+   new Order(9,  20201123, "Sam",     7),
+   new Order(13, 20201021, "Alex",    2),
+   new Order(20, 20201213, "Jenny",   3),
+   new Order(5,  20201013, "John",    8),
+   new Order(4,  20191112, "Chloe",   5),
+   new Order(16, 20201117, "Sandy",   5),
+   new Order(17, 20210103, "Michael", 4),
+   new Order(6,  20210103, "Paul", 4),
+   new Order(2,  20201225, "Ellen",   3),
+   new Order(14, 20210113, "Daniel",  7),
+   new Order(8,  20201205, "Jay",     4),
+   new Order(10, 20201213, "Jenny",   3),
+   new Order(12, 20201124, "Cassie",  6),
+   new Order(15, 20201013, "Johnny",  8),
+   new Order(19, 20200305, "Rose",     1)
+   };
